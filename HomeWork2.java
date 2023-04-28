@@ -3,11 +3,11 @@ import java.util.*;
 public class HomeWork2 {
     public static void main(String[] args) {
         Friend[] friends = {
-            new Friend("Вася", Integer.parseInt("18"),true, Integer.parseInt("4")),
-            new Friend("Катя", Integer.parseInt("19"),true, Integer.parseInt("12")),
-            new Friend("Дима", Integer.parseInt("20"),false, Integer.parseInt("6")),
-            new Friend("Лена", Integer.parseInt("16"),false, Integer.parseInt("9")),
-            new Friend("Вова", Integer.parseInt("18"),true, Integer.parseInt("20"))
+            new Friend("Вася", Integer.parseInt("18"),true, Float.parseFloat("4.5")),
+            new Friend("Катя", Integer.parseInt("19"),true, Float.parseFloat("12.6")),
+            new Friend("Дима", Integer.parseInt("20"),false, Float.parseFloat("6")),
+            new Friend("Лена", Integer.parseInt("16"),false, Float.parseFloat("9.2")),
+            new Friend("Вова", Integer.parseInt("18"),true, Float.parseFloat("20"))
         };
 
         System.out.println(" My friends: " + Arrays.toString(friends));
